@@ -1,0 +1,32 @@
+.smallBtn1 {
+  background-color: black;
+  color: white;
+  width: 64px;
+  border-radius: 5px;
+  height: 33px;
+  font-size: smaller;
+}
+.smallBtn2 {
+  background-color: #e6e6e6;
+  color: black;
+  width: 128px;
+  border-radius: 5px;
+  height: 33px;
+  font-size: smaller;
+}
+.btn1 {
+  background-color: black;
+  color: white;
+  width: 78px;
+  border-radius: 5px;
+  height: 40px;
+  font-size: small;
+}
+.btn2 {
+  background-color: #e6e6e6;
+  color: black;
+  width: 156px;
+  border-radius: 5px;
+  height: 40px;
+  font-size: small;
+}

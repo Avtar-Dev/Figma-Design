@@ -1,1 +1,10 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
+
+.heading-div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.landing-div {
+  padding: 36px;
+}

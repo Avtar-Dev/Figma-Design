@@ -1,11 +1,12 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import AllTexts from "./components/TextComp/AllTexts";
+import LandingPage from "./Screens/LandingPage";
+
 function App() {
   return (
     <>
       <div className=" ">
-        <AllTexts />
+        <LandingPage />
       </div>
     </>
   );
