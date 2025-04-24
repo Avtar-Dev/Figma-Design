@@ -1,4 +1,4 @@
-/* @import "tailwindcss"; */
+@import "tailwindcss";
 
 .heading-div {
   display: flex;
@@ -6,5 +6,5 @@
   gap: 16px;
 }
 .landing-div {
-  padding: 36px;
+  padding: 0 70px;
 }

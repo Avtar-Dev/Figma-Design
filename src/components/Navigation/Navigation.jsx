@@ -4,14 +4,14 @@ import Buttons from "../Buttons/Buttons";
 
 const Navigation = () => {
   return (
-    <div className="navigation-main">
-      <div className="sitename">
-        <p>Anything</p>
+    <div className="flex justify-between h-26">
+      <div className="flex justify-center items-center font-bold">
+        <p className="">Anything</p>
       </div>
-      <div className="page">
-        <span>Home</span>
-        <span>About</span>
-        <span>Service</span>
+      <div className="flex justify-between items-center w-80">
+        <span className="font-bold">Home</span>
+        <span className="font-bold">About</span>
+        <span className="font-bold">Service</span>
         <Buttons cName={"smallBtn1"} title={"Button"} />
       </div>
     </div>

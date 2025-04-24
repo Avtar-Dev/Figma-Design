@@ -5,6 +5,9 @@ import SectionHeading from "../components/SectionHeading";
 import MainHeading from "../components/LandingHeading/MainHeading";
 import Buttons from "../components/Buttons/Buttons";
 import Navigation from "../components/Navigation/Navigation";
+import Image from "../components/Image";
+import Text from "../components/TextComp/Text";
+import ThreeImg from "../components/ThreeImg";
 
 const LandingPage = () => {
   const headingData = [
@@ -23,9 +26,17 @@ const LandingPage = () => {
           title={headingData[0].title}
         />
         <Buttons cName={"btn1"} title={"Click"} />
-        <SectionHeading heading={"Section Heading"} />
-        <AllTexts />
       </div>
+      <Image
+        src={"src/assets/LandingPageImages/HeroImage.png"}
+        alt={"HeroImage"}
+        cName={"heroImage"}
+      />
+
+      <SectionHeading heading={"Section Heading"} />
+      <ThreeImg />
+      <SectionHeading heading={"Section Heading"} />
+      <AllTexts />
     </div>
   );
 };
