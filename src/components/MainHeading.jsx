@@ -1,13 +1,12 @@
 import React from "react";
-import "./App.css";
 
 const MainHeading = ({ heading, title }) => {
   return (
-    <div className="main-head">
-      <h4 className="head">
+    <div className="w-[26vw]">
+      <h4 className="text-[xx-large]">
         <b>{heading}</b>
       </h4>
-      <div className="title">{title}</div>
+      <div className="text-[15px]">{title}</div>
     </div>
   );
 };

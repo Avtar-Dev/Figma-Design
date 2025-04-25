@@ -1,10 +1,9 @@
 import React from "react";
-import "./App.css";
-import Buttons from "../Buttons/Buttons";
+import Buttons from "./Buttons/Buttons";
 
 const Navigation = () => {
   return (
-    <div className="flex justify-between h-26">
+    <div className="flex justify-between h-20">
       <div className="flex justify-center items-center font-bold">
         <p className="">Anything</p>
       </div>
