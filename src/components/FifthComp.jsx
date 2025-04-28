@@ -13,8 +13,10 @@ const FifthComp = () => {
     }
   }, []);
   return (
-    <div className="flex justify-between items-start">
-      <div ref={contentRef} className="flex flex-col gap-8">
+    <div className="min-w-full flex flex-col gap-3 overflow-hidden sm:max-w-full sm:flex sm:flex-row sm:justify-between sm:items-start">
+      <div
+        ref={contentRef}
+        className="flex flex-col justify-center  gap-8 sm:flex sm:flex-col sm:gap-8">
         <SectionHeading heading="Section Heading" />
         <AllTexts />
         <div className="flex gap-3">
@@ -26,7 +28,7 @@ const FifthComp = () => {
       <img
         src="src/assets/LandingPageImages/Image4.png"
         alt="Image"
-        className="object-contain"
+        // className="max-w-auto"
         style={{ height: `${contentHeight}px` }}
       />
     </div>

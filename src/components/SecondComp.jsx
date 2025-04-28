@@ -11,7 +11,7 @@ const SecondComp = () => {
     },
   ];
   return (
-    <div className="heading-div">
+    <div className="flex flex-col gap-6 sm:flex sm:flex-col sm:gap-6">
       <MainHeading
         heading={headingData[0].heading}
         title={headingData[0].title}

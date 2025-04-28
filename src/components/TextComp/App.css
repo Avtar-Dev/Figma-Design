@@ -17,6 +17,8 @@
   font-weight: 600;
 }
 .text {
+  width: fit-content;
+  word-wrap: break-word;
   font-size: 15px;
   color: rgba(130, 130, 130, 1);
 }
