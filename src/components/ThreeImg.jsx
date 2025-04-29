@@ -2,9 +2,9 @@ import React from "react";
 import Image from "./Image";
 import Text from "./TextComp/Text";
 import SectionHeading from "./SectionHeading";
-import Image1 from "../assets/LandingPageImages/Image1.png";
-import Image2 from "../assets/LandingPageImages/Image2.png";
-import Image3 from "../assets/LandingPageImages/Image3.png";
+import Image1 from "../assets/LandingPageImages/Image1.webp";
+import Image2 from "../assets/LandingPageImages/Image2.webp";
+import Image3 from "../assets/LandingPageImages/Image3.webp";
 const ThreeImg = () => {
   const texts = [
     {

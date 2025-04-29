@@ -2,8 +2,8 @@ import React from "react";
 import SectionHeading from "./SectionHeading";
 import Image from "./Image";
 import Text from "./TextComp/Text";
-import Image5 from "../assets/LandingPageImages/Image5.png";
-import Image6 from "../assets/LandingPageImages/Image6.png";
+import Image5 from "../assets/LandingPageImages/Image5.webp";
+import Image6 from "../assets/LandingPageImages/Image6.webp";
 const TwoImg = () => {
   const texts = [
     {

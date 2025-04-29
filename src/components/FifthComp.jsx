@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import AllTexts from "./TextComp/AllTexts";
 import SectionHeading from "./SectionHeading";
 import Buttons from "./Buttons/Buttons";
-import Image4 from "../assets/LandingPageImages/Image4.png";
+import Image4 from "../assets/LandingPageImages/Image4.webp";
 const FifthComp = () => {
   const contentRef = useRef(null);
   const [contentHeight, setContentHeight] = useState(0);

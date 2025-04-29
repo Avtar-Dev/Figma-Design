@@ -8,7 +8,7 @@ import FifthComp from "../components/FifthComp";
 import SixthComp from "../components/Sixth/SixthComp";
 import SeventhComp from "../components/SeventhComp";
 import LastComp from "../components/Footer/LastComp";
-import HeroImage from "../assets/LandingPageImages/HeroImage.png";
+import HeroImage from "../assets/LandingPageImages/HeroImage.webp";
 const LandingPage = () => {
   return (
     <div className="max-w-auto px-5 pb-2 flex flex-col text-sm gap-8 sm:px-12 sm:min-w-fit sm:flex sm:flex-col sm:gap-16 bg-white">
