@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import AllTexts from "./TextComp/AllTexts";
 import SectionHeading from "./SectionHeading";
 import Buttons from "./Buttons/Buttons";
-
+import Image4 from "../assets/LandingPageImages/Image4.png";
 const FifthComp = () => {
   const contentRef = useRef(null);
   const [contentHeight, setContentHeight] = useState(0);
@@ -26,7 +26,7 @@ const FifthComp = () => {
       </div>
 
       <img
-        src="src/assets/LandingPageImages/Image4.png"
+        src={Image4}
         alt="Image"
         // className="max-w-auto"
         style={{ height: `${contentHeight}px` }}
