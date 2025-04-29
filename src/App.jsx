@@ -4,7 +4,7 @@ import LandingPage from "./Screens/LandingPage";
 function App() {
   return (
     <>
-      <div className="">
+      <div className="bg-[#f5f5f5]">
         <LandingPage />
       </div>
     </>

@@ -7,10 +7,11 @@ import SecondComp from "../components/SecondComp";
 import FifthComp from "../components/FifthComp";
 import SixthComp from "../components/Sixth/SixthComp";
 import SeventhComp from "../components/SeventhComp";
+import LastComp from "../components/Footer/LastComp";
 
 const LandingPage = () => {
   return (
-    <div className="max-w-auto px-2 pb-2 flex flex-col text-sm gap-8 sm:px-12 sm:min-w-fit sm:flex sm:flex-col sm:gap-16">
+    <div className="max-w-auto px-5 pb-2 flex flex-col text-sm gap-8 sm:px-12 sm:min-w-fit sm:flex sm:flex-col sm:gap-16 bg-white">
       <Navigation />
       <SecondComp />
       <Image
@@ -23,6 +24,7 @@ const LandingPage = () => {
       <TwoImg />
       <SixthComp />
       <SeventhComp />
+      <LastComp />
     </div>
   );
 };

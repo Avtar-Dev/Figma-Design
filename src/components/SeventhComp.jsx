@@ -4,7 +4,7 @@ import Buttons from "./Buttons/Buttons";
 
 const SeventhComp = () => {
   return (
-    <div className="flex flex-col gap-3 items-center sm:flex sm:flex-row sm:justify-between sm:p-10 bg-[#F7F7F7]">
+    <div className="flex flex-col gap-3 p-2 items-center sm:flex sm:flex-row sm:justify-between sm:p-10 bg-[#F7F7F7]">
       <SectionHeading heading={"Section Heading"} />
       <div className="flex gap-2">
         <Buttons cName={"btn1"} title={"Button"} />
