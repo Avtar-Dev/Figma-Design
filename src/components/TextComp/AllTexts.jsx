@@ -18,7 +18,7 @@ const AllTexts = () => {
   ];
 
   return (
-    <div className="main-container">
+    <div className="flex flex-col h-auto gap-[18px] xl:w-[315px]">
       {texts.map((item, index) => (
         <Text key={index} subHeading={item.subHeading} text={item.text} />
       ))}

@@ -13,10 +13,12 @@ const FifthComp = () => {
     }
   }, []);
   return (
-    <div className="min-w-full flex flex-col gap-3 overflow-hidden sm:max-w-full sm:flex sm:flex-row sm:justify-between sm:items-start">
+    <div
+      className="min-w-full flex flex-col items-center gap-3 overflow-hidden sm:max-w-full 
+    sm:flex sm:flex-row sm:justify-between sm:items-start">
       <div
         ref={contentRef}
-        className="flex flex-col justify-center  gap-8 sm:flex sm:flex-col sm:gap-8">
+        className="flex flex-col justify-center gap-8 sm:flex sm:flex-col sm:gap-8">
         <SectionHeading heading="Section Heading" />
         <AllTexts />
         <div className="flex gap-3">
@@ -24,13 +26,14 @@ const FifthComp = () => {
           <Buttons cName="smallBtn2" title="Secondary Button" />
         </div>
       </div>
-
-      <img
-        src={Image4}
-        alt="Image"
-        // className="max-w-auto"
-        style={{ height: `${contentHeight}px` }}
-      />
+      <div className="">
+        <img
+          src={Image4}
+          alt="Image"
+          className="rounded-md"
+          style={{ height: `${contentHeight}px` }}
+        />
+      </div>
     </div>
   );
 };
